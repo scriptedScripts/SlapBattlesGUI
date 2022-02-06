@@ -1,0 +1,8 @@
+--Script loader
+--Take the loader script if you want
+--Do not try to run this script on any other game with the loadstring nothing will work
+--One more thing the code has lua string encryption so people dont steal my code
+
+if game.PlaceId == 6403373529 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptedScripts/SlapBattlesGUI/main/UI.lua'),true))()
+end
